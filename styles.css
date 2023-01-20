@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    background-color: black;
+}
+hr{
+    background-color:white;
+    width:100%;
+    border-style:none;
+}
+nav{
+    position:fixed;
+}
+h1{
+    margin:0px;
+}
+#title{
+    background-color: black;
+    margin-top:0;
+    margin-bottom:0;
+}
+.collapse{
+    
+    color:white;
+    margin:0 0;
+}
+.collapse ul {
+    padding-left:0px;
+}
+
+.collapse li{
+    margin-left:10px;
+    font-size:larger;
+    font-weight: bold;
+}
+.img_title{
+  padding-top:200px;
+   margin-bottom:0;
+   text-align:center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight:bolder;
+   background-color: black;
+   color:white;
+   font-size:xx-large;
+}
+.first-view{
+    background-repeat: no-repeat;
+}
+
+.logodiv{
+    padding-top:200px;
+   background-color:black;
+    width:100%;
+   text-align:center;
+
+}
+.logo{
+    margin-top:10px;
+}
+.logo:hover{      
+        box-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
+      
+}
+
+.logo_description{
+    font-size:xx-large;
+    padding-top:0px;
+   text-align:center;
+    font-weight:bold;
+    background-color:black;
+    
+}
+.acm_full{
+    color:white;
+}
+/*.team{
+    width:500px;
+    height:500px;
+    text-align:center;
+}*/
+
+#group{
+    text-align:center;
+    height:45%;
+    background-color:black;
+    margin-top:0;
+}
+.aboutus{
+    padding-top:200px;
+    background-color: black;
+    color:white;
+    text-align:justify;
+    line-height:2;
+    font-weight:bold;
+    font-size:17px;
+   padding-left:50px;
+   padding-right:50px;
+   height:35%;
+}
+#about_title{
+    padding-left:42%;
+}
+.aboutuspic{
+    height:200px;
+    width:250px;
+    position:absolute;
+    margin-top:75px;
+    opacity:0.4;
+    margin-left:35%;
+}
+.webteam{
+   text-align:center;
+}
+.col{
+    background-color: rgb(0, 0, 0);
+    height:400px;
+    width:300px;
+    display:inline-block;
+    margin-left:30px;
+    box-shadow: 0 0 30px white;
+    color:white;
+    transition: transform 1s;
+}
+.co-heading{
+    color:white;
+    margin:20px 45%;
+}
+.webteam-img{
+    height:200px;
+    width:75%;;
+    margin:10px;
+    border:2px solid black;
+}
+.col:hover{
+    transform:scale(1.2)  ;
+    border-radius:50px;
+}
